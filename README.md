@@ -2,8 +2,12 @@
 
 Resultado regresión:
 
+
+Regresión: lectura = -24.882364 * Peso + 37420.864858
+Std total: 182333.144189
+
 $$
-lectura = -24.495680 * Peso + 42028.622955
+Lectura = -24.882364 * Peso + 37420.864858
 $$
 
-![Curva](images/curva.png)
+![Curva](images/curva2.png)
