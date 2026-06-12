@@ -5,7 +5,7 @@
 #define DEBUG_HX711
 
 // Parámetro para calibrar el peso y el sensor
-#define CALIBRACION 24495.680
+#define CALIBRACION -24882.364
 // Pin de datos y de reloj
 byte pinData = 4;
 byte pinClk = 5;
@@ -32,9 +32,9 @@ void setup() {
 
 void loop() {
 #ifdef DEBUG_HX711
-  Serial.print("[HX7] Leyendo: ");
-  Serial.print(bascula.get_units(), 3);
-  Serial.print(" Kg");
+  //Serial.print("[HX7] Leyendo: ");
+  Serial.print(bascula.get_units(5), 1);
+  //Serial.print(" Kg");
   Serial.println();
 #endif
 }
